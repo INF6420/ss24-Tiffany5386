@@ -1,2 +1,21 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/eGCX6fLD)
 # INF 6420 - Intro to Web Development
+
+My website is about....
+
+## Homepage
+
+![wireframe of homepage](wireframes/homepage.jpg)
+
+Homepage will include menu, featured product
+
+## Product
+
+![wireframe of product](wireframes/product.jpg)
+
+About the product page...
+
+## About Us
+
+![wireframe of about us](wireframes/about.jpg)
+
+About the about us...
