@@ -17,7 +17,7 @@ nav a,
 nav a:visited {
     padding: 12px;
     font-weight: 900;
-    color: green;
+    color: #004c00;
 }
 
 nav a:hover,
@@ -49,7 +49,8 @@ nav a:focus {
 }
 
 .site-name img {
-    max-height: 200px;
+    height: 200px;
+    width: auto;
 }
 
 img {
