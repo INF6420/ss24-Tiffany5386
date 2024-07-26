@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skin Lab for All</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/validate@2.2.0/dist/validate.min.js"></script>
 </head>
 <body>
     <header>
@@ -26,12 +27,27 @@
     <main>
         <h1>About Us</h1>
         <p>This is where the main content goes.</p>
-        <img src="images/about.jpg" alt="">
+        <form action="https://formspree.io/f/meqnnypa" method="post" data-validate>
+            <label for="name">Your Name</label>
+            <input name="name" id="name" type="text" class="form-input">
+            
+            <label for="email">Your Email</label>
+            <input name="email" id="email" type="email" class="form-input" required>
+            
+            <label for="message">Your Message</label>
+            <textarea name="message" class="form-input" required></textarea>
+            
+            <!-- your other form fields go here -->
+            <button type="submit">Submit</button>
+          </form>          
     </main>
     <footer>
         This is where the footer content goes. 
         &copy; 2024
     </footer>
+    <script>
+        validate.init();
+    </script>
     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ZmIjuZUy1MQ?si=CzLqPxvlQjL1japQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 </body>
 </html>
